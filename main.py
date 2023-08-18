@@ -58,3 +58,4 @@ fig_deaths = go.Figure(data=data_deaths, layout=layout_deaths)
 
 py.iplot(fig_cases)
 py.iplot(fig_deaths)
+
