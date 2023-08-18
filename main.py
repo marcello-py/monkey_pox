@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import plotly.offline as py
 import pygame as py
+import seaborn as srn
 # %%
 pd.set_option('display.max_rows', 500)  # Padronizar a quantidade de "linhas"
 df_monkeypox = pd.read_csv('../monkey_pox/monkeypox_data.csv')
