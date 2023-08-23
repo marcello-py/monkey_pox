@@ -55,6 +55,7 @@ layout_deaths = go.Layout(
     yaxis={'title': 'Mês'},
     xaxis={'title': 'Mortes'},    
 )
+
 fig_deaths = go.Figure(data=data_deaths, layout=layout_deaths)
 
 # %%
