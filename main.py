@@ -21,12 +21,11 @@ plt.style.use('classic')
 plt.scatter(df_group_brazil['total_cases'], df_group_brazil['date'], color='gray')
 plt.xlabel('total_cases')
 plt.ylabel('date')
-plt.yticks(df_group_brazil['date'][::31])
+plt.yticks(df_group_brazil['date'][::31])  #intervalo de dias apresentado
 plt.grid()
 plt.savefig('monkey_pox_total_cases.jpg', format='jpg')
 # %%
 plt.figure(figsize=(10, 5))
-#.style.use('classic')
 plt.scatter(df_group_brazil['total_deaths'], df_group_brazil['date'], color='gray')
 plt.xlabel('total_deaths')
 plt.ylabel('date')
